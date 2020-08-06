@@ -2,6 +2,13 @@
 *, *:before, *:after {
     box-sizing: border-box;
   }
+
+  #slides {
+      background-image: url("./css/bg/bg2.jpg");
+      background-repeat: inherit;
+  
+      
+  }
   html {
     overflow-y: scroll;
   }
@@ -49,7 +56,7 @@
     transition: .5s ease;
   }
   .top-area li a:hover {
-    background: #0080ff;
+    background: #00ff22;
     color: #ffffff;
   }
   .top-area .active a {
@@ -146,7 +153,7 @@
     -webkit-appearance: none;
   }
   .button:hover, .button:focus {
-    background: #0080ff;
+    background: #09ff00;
   }
   .button-block {
     display: block;
@@ -159,5 +166,6 @@
   @media (max-width: 765px) {
       label {
         left: 0;
-      }    }
-  }
+      } 
+       }
+  
