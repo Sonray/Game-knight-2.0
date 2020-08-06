@@ -158,7 +158,6 @@ function itemCash(item){
 
 
 function relayMessage(game, userLocation){
-    
     var pricing = itemCash(game)
     var getDelivery = chargeDeliver(userLocation.toString())
 
@@ -171,7 +170,10 @@ function relayMessage(game, userLocation){
     }
     else{
 
+        var phone = prompt("Enter your phone number for delivery")
+
         alert("You have ordered a "+game+" which costs "+pricing+" Your delivery location is "+userLocation+" the delivery cost is "+getDelivery+" and the total cost is "+tottal)
+        alert("We will reach you on this number "+phone+" upon arrival")
     
     }
 
