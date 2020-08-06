@@ -1,0 +1,43 @@
+.jumbotron{
+    text-align: center;background-color:#26F122;
+}
+.jumbotron img{
+    margin-top: -4vh;
+    font-size: 80px;
+    font-weight: 1000;
+    box-shadow: 2px 2px 5px black;
+}
+.navigation{
+    text-align: right;
+    background-color: grey;
+    margin-top: -5vh;
+    height: 15vh;
+    padding: 20px;
+}
+.nav-bar a{
+    margin-right: 5vw;
+    font-size: 40px;
+    font-weight: 1000px;
+    color: black;
+}
+.nav-bar a:hover{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+}
+footer{
+    display: flex;
+    padding: 2vh;
+    font-weight: 800;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+#foot-nav a, .socials #social-media img{
+    display: block;
+    color: white;
+    margin-top: 1vh;
+}
+#social-media img{
+    margin-left: 3vw;
+}
