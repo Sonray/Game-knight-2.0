@@ -12,7 +12,8 @@
     background-color: grey;
     margin-top: -5vh;
     height: 15vh;
-    padding: 20px;
+    padding:10px;
+    font-size: 15px;
 }
 .nav-bar a{
     margin-right: 5vw;

@@ -5,7 +5,8 @@ body{
 .jumbotron{
     text-align: center;
     background-color:#26F122;
-    height: 7vh;
+    height: 3vh;
+    font-size: 10px;
 }
 .jumbotron h3{
     margin-top: -8vh;
@@ -23,7 +24,10 @@ nav{
     background-color: darkgray;
     margin-top: -3vh;
     padding-top:20px;
-    
+    background-color: black;
+}
+#company{
+    background-color: black;
 }
 .blogs{
     background-color: black;
@@ -31,9 +35,10 @@ nav{
     text-align: center;
 }
 h4{
-    text-align: center;
-    font-size: 35px;
+    text-align: left;
+    font-size: 25px;
     margin-left:64px;
+    
 }
 .navigation{
     text-align: right;
