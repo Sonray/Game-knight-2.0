@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="css/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Merienda">
+        <link rel="stylesheet" type="text/css" href="css/blogStyles.css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src=""></script>
+        <title>Blog Post</title>
+    </head>
+
+    <body>
+        <div class="jumbotron">
+            <h3>GAME-NIGHT RENTALS</h3>
+        </div>
+        <!--<div id="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+                <div class="collapse navbar-collapse">
+                    <div class="navbar-nav">
+                        <ul class="navbar-nav"> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hire</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog Sport</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>-->
+        <div class="navigation navbar-nav nav-item">
+            <div class="nav-bar">
+                <a href="#">HIRE</a>
+                <a href="#">ABOUT-US</a>
+                <a href="#">BLOG-SPORT</a>
+            </div>
+        </div>
+        <br>
+
+        <div class="blogs">
+
+            <div class="container">
+                <div class="row">
+                    <h4>FIFA 20 Review: The good, the bad and the bottom-line</h4>
+                    <div class="col-md-3">
+                           <img src="data:image/jpeg;base64,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" height=auto width="200px">
+                    </div>
+                    <div class="col-md-9">
+                       
+                        <p>The nearly undisputed King of the Virtual Pitch is back with its latest release. Fifa 20 will be
+                        available worldwide on September 24 but I've had my hands on a review code form EA about a week ago. As
+                        is the case with almost every sports game these days, the entire scope of the release requires more than a couple
+                        days to completely evaluate. After taking shots, wins, losses and lessons in the <span id="itallic">Volta</span> mode career
+                        career, kickoff and FUT, 
+                        I've finally settled on my good, bad and bottom-line for FIFA 20.<a href="https://www.forbes.com/sites/games/2019/09/23/fifa-20-review-the-good-the-bad-and-the-bottom-line/#447fe7b52aee">Read More...</a>
+                        </p> 
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container"></span>
+                <h4>CALL OF DUTY: Modern Warfare 'The best call of duty in the decade'</h4>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwApAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAQMEBgcCAAj/xAA3EAABAwMDBAECAwUIAwAAAAABAgMEAAURBhIhEzFBUSJhcRQygQcjkaGxFRZCUsHR4fAkM2L/xAAXAQEBAQEAAAAAAAAAAAAAAAABAgAD/8QAHREBAQEBAQADAQEAAAAAAAAAAAERAiESQVFhMf/aAAwDAQACEQMRAD8AL2F0ApOeCaucOaAAM1lNmu21CRmrXCuiVpB3c1y2xeStAYlA+amodB81T4FwBH5qNR5YUPzVc6TYNAg0tQmpH1ri7yVs2ae8yra43GcWk+iEkg1QSuq0pwthxHU/ybhn+FMvpaUSkqTu9FXNYvZNOv3TTjNztqmW7mi4L3SXpGxRSEJI5Pc7jn3UTUbq377erykgriXBtI9EjcP5dIfxpwa16VFQVlIKSodxnmgkqKleQkg/Y5oVYQh/9r9zWnBStlSgfY2t4qtaPflwBeHYDCXFGXHQ5lsqCUHrZPB47dzwKm8KnQ1cYiUkglIP3quzGtpIPGaG3R233HUUmTcZcNQXGSVhDm3a6GUjGM5GFAjk+KAoC1/2QVKKh1iBk543J/3okw26Mv4Bzkfxoc7jPcULSwh1N0U5klo7k8+cqpgR0ptqJaM9VLnfPGM4rohPd74qI6KSFlYdkK7uK4+1dOkUsjLFR10+4ajuGljC6bp0802aGc16vV6hl6jLLfOaIx7ktHYkUAQ/jAB5qQgq2FRHFFhXW3XkoAyqrLbLyHFY3CsqYkKB70Yg3NbJBB+lc7x+KlbDEmheMGo7uprFJiPR3LmxsebU2rCvBGD/AFqm2u9nIBOKozL+Uitz/R15/i923Rc24W5iAi6256zolGQl5tKi4TgJIx2HA98fWirf7OH3bDcIsiVGXMflJfYdBVtRjg595BUP1qoaZ1E/ZJW5OXIzh/es57/UfUf8fbXbZc2ZcduRHcDjLgylQrpbYmeqpB0NqGBeW7pFu0Np7pNtuq2FW5IShKhyMc7aB3Sxy9IxZ6H7vG2XQbPwzTZUpw7jtzxkJ+ShnI71ol/1VbrNAddemRUPDKUIed25UPHs/YAmsimastUs3Bc+QJkx5IWy6ELAbWndgJyAccjx4896L0qc+qjF0229EQ/NkYefWrgryT47n3370UsmkJbzMhyNM2mG+ktNyEnb23H7dh96BQdSKZjIakNqW4kjcsHskev0rX7O3BsuhY0yT1AZaeuQsfvHFL5SMe9uK5c/LXXv4znxmT1ochtTWnXUKekZyU52jv8A70PMRTduVGK0nOfl45NSr3JkPzTL/IQfilPZI9Uyh9MiOojhSSNyfVd3AOSoRm0tOOJwB6ptTyV52nIqPcT+9H2plhXwV96zHlqpknNIpVc5pYpps10TXBNLOTXq9XqllhjK3EHNT0urA27viaCxngMc1PTI7D/SsyU2rB4BqSh4JOAQSfvxQ9bqsE9qabfOTzzQYtER0jbuOOeRQFpwJRlJJ44qTEmlO4g9/GO1AkyD33gDFTIzVb9pdaIqbjbU/DYFPMp/w/8A0B6/79oWl7vMgSFxmZbcdl9J3uO4KWjj8/PGR/OrdZb7FkwWGSo9QDHPj2arGo7dAiXWK7EX1ESFuK6CeOW0FasfQ7cfcijnr6pvP2pOopE+7zZV2mr6zS1qU2XnSG0N7sJCQTnHoD9frVXZLpXuBT2xtSMDFG9VL2FtlctLy0AFxAaQnas8qI2geT55quZ5zXWcyRN6tqTHdQhwLQ2g8/NpacoUP6/pWmz709qBiPKWEpZS2EMsNfkaA4wB9xWWskBaM8EKHNFrdNXAuTcplakGItDrYB/KQQTx9eanfjTnyjQJOkJCrWp14luWobktHskej9f6Vn8oORX1AgoWg4Uk/wBDX0Dd3o7iFlAyVDHesj1hBS8+XGwA4OM/5qmdabMUya6l5YWnjjkeqZZ/Kr7ileTtUQeCD2NIz+VVdEvKNc0qq5rM8a5rquTQxK9Xq9WZLZJzU5kmoLa8YyKlNucjHaoUlqdJTsIGPdMryCCCB9zXalIXtxgUiwvfuUApKR29/wDc1jCNSNi8cEZ71pGrNDMxN7mmwXwwpKJMXO9xBIylQ8kEEcfr7rMi4FKASnGPdaK5M1UjXUktMsJvamE9aPGO5soCBgnJ7duT5wPOKzDBsSLPpmS9IlbrpHS2pxDa/iyFqACT7OM81H1E5p/T8sxZMKXMkNRw646ZZbwFpWkkces9vpQi3P3B2xXxx9CFx3Hm/wAetzPWDgVwAPeeDVqei3iVaTOm2WzXKYhra2lxgKcUkBRwVE8nt8R7PNbmNfFNkaZ05dGtM3e2xpMeNc7j+FkR3HirIyoEhXccpP8AHxUC+PaEs14mW13Tc9xcV0tlabgoBWPIFT4k/UOqLgwLHHtEeBYnEymWkp6DR3Z2qIz9FdsdzRK7C/tRZl3maX0dN6KS9IW20h5zHlR5591VTDDGhbEddIg9KQ7b37P+PbZceKVIUVAAbh4x79+cU0/YrVEjOyDpptghP/t/vElzaT2O0D5c4481PQxrRN6bvz6LAJDkMMIaekhCAyohQG3IPj35NQraxeLrIuUCHpTSgMYhp55DISjcocBK84J5qaYvDaUO2eNLFvlTVvKUFBhZG0Anmgeo7PDct8SUYcmG+5MQyph5zJWg9yPVQrALw5bIOn2wWH4vUGOoUrzkkhRz4owLdf3reiCXIcjpvh5BVJ3L3DxnPaiGwF1Voe2SG5qdMhz+0LcR+IiuLKi6ggEKTnyP58jviqhrCywrXb9PPwmlocnQes/uWTlfx8Ht3NXQxNRSbqnUjC4UN8uFH7x8NpUU/FSCCeR8e30z6oF+0Fy53B6Gu7C3b221hv8AAub04JBOeTzVypsZ4sc1wRUx2OQTxTBaOe1UDNIRT3SI7ikKOK2MZr1KRg16hjyVjjNSmkpIzv8A0qAK7GRyK5rT0Jw4BnOTTzinWhjgeO9C+sof4jTinSttO4HdjvmsfDq3Mqz5zWnav/aDATJdGkF/+VM2KlXLplJARwlCdw+nPGBk45JxlPUyMefrXKdyCFDk1mzWxL1ZabjpmTIkBEC6ynWOueiXELU24k9TA+mSQcHjHPGWbv8AtC0+3c4T0ZNzlN204ZejFDbbqlD5EpUM88jx595rMUOPKjkNL2qJ5Uew+3qopaLSQl0jJzgAcfxqt8yDP1p0bUWkLbN1NIZliTCukVK0Qi24glw7y41nbxknOe3P0qHD1Hp46fv0OFbmbO9LhFDCmHlv/iDg/A5T8PrnHfvWcrQpKSsJOPdLAxh3Ix8c554/nWDT9T6qtcxtpFug2q5FFvShTsqOoqQ4kH4jdjIHJHGO/NMs3zTtt07bbLBTdZ3RcRJkSrcjYDJBzglacnBAx9hWeNtpeU2c4KVd6u+k1syLeYSFgrQVHPkpKuFHjvR14ZNXpm92hy/wrz1jH6rKhJZWglTS9uAeBg57ceqiWa+2Zu5NuG0txEhRJfD617e/O3HNDHLKtMcuHkevVDVRnGdwVjHbip04tSbra37OmI9cIXWTKecJlwVPhQKlEEDGASCDVc1A3bnglbM2G4tLeAmJBLCSc+QfP1oK4pQcIAIpha+SSTmqGIMpoBRwOKiBv59qKr2rT8jTB6KFZ706MRXY2UZFQHWigZo8laFoxih09vaSAOKZ0LAg969ThTzXqdY0OK7yNtd7B092OaYJrmsiq8kk8ZpB3pCcHikFAJJNOtjJ55p9DadgOPFN4G7tUrkSoBIWAeUnuMZow3BG0OIClJJGQR2oZDSA+lI4FW614QE4SCDjg1NVFakWxDRV+ISO5UFAYz5wR4+9Cn19PAQ2j0TjxV9vjaM42jgf6GqotpBfAKQQNxweR3rpL459T1Dt7RkLVhvGATwCefGaP6WmMwbo+JTwbDgwkqyBnI70LSSHcgkEccccGoro6ri1q4KVDAHaitGuwLnHmxyYz7bgPHB81GdjoUSguJB5OxQ8VX9Hxkf3YVI3K6gkEg+uwxRuOeugLcA3AkAioxcCZMZJUFAZIAoa6z+9/KftR+Y2lHTKOCpIzTZYRvHFXKmxWJDKknGO9RFMOlfINWlbSEqJ2gn6ioziEqWcjtSMBWGXFcjsKZmpJVtxR5KEpQQBihkpI61YUGLHNep5/hwgUtIf/9k=" width="200px" height=auto>
+                    </div>
+                    <div class="col-md-9">
+                        <p><span id="itallic">Call Of Duty: Modern Warfare</span> is half prequel, half reboot to the modern warfare franchise. The game takes place before
+                            the events of <span id="itallic">Call Of Duty 4:Modern Warfare</span> but since this is re-imagining of the entire story, developer infinity Ward still has plenty of
+                            room to not simply revisit the events of those earlier games, but alter and expand upon them however they seem fit. It is also a return to more grounded, realistic military shooter 
+                            of futuristic entries . Gone are advanced mobility mechanics-double-jumping and wall-running and good riddance.<a href="https://www.forbes.com/sites/games/2019/11/05/call-of-duty-modern-warfare-review-the-best-call-of-duty-in-a-decade/#736dd8666f97">Read more...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <h4>TOP 20 MOST PLAYED GAME : 2020</h4>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhMVFRUVFRUQFhcYFxUVFhUVFxUXFxUVFRUYHSggGBolGxUVITEhJSkrLi8uFx8zODMsNygtLisBCgoKDg0OGhAQGi0fHx0tLS0tLS0tLi0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tLSstKy0tLS0tLS0tLS0rLv/AABEIAJ8BPgMBIgACEQEDEQH/xAAcAAAABwEBAAAAAAAAAAAAAAAAAgMEBQYHAQj/xABGEAACAQMCAgYGBwUGBQUBAAABAgMABBEFEiExBgcTQVFhFyJUcZGTFDJSU4GS0hUjQrHRFmJyg6HBCDOCovA2Q0Sy4ST/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAArEQACAgIBAwMDBAMBAAAAAAAAAQIRAxIhBDFBE1FhFCLwQlJxkYGh0TL/2gAMAwEAAhEDEQA/ALNQrmaFdYgVw1xnxTWa5AoAcs9JtNUbNfDxpu1/TGSpmrqy1Dm9pRLwUASCkFxUoKqkuobWzUxZaxG4GWANNxbXAmSlCm/0yP7a/EUYXSfaX4ippiFqFJidftD4iuiUeIpUAehRd48aZX+rwxDLuo/HjTUW+EA+rhYVU5Ol8RPA5zwApjqXTmKIccs/cg+t/wBX2R7+Pka1eCUVcuByjNeC06/qot7eSbAOxcgE4BY8FBPhkisF1TUZJ5GllYs7cye4dwA7gPCn/SHpRPdn122oDlY14KPM/aPmf9KhDU2kuCUn5FLaEuwUEDOTk5xwBJ5Dyrs1uy8SMg8mBDKfcw4Z8qU0+RVYMxPDcCAMnBUjI8+PLhXJLnAKxjap4HvZv8R8PIYHvqLFzY3zVi0Lprd2xGJDInekhLDH90niv4cPKq5T2d+zCBQOKBixVWLE8xkg4AOVx5Gls0WlZuXRrpJFeR74+DDg6H6yH/cHuP8AvkVL76wHSdWe0njnjGCVy6cgyknK+QIAYeBIrXrTpJDIiyK3qsMjPA+YI7iO8VcY7diXGV0uSfDUbfUKNbj+0KONZj+0PjVelL2FrkXgmN9c31FjVY/tCjjUk8RU+m/YX3exI7qSlemZ1FPGonVtdVQcGqjik3VDUJzdJFQ6xrnOB51SByqU6Sah2r/jURvrsyfbUfZGs62peBxbjjVm01Kq9o/rVa9NYYrkysIj24HCqlrHOrVdyDFVHVZMmubyaeCMNcrprlWYno0TVxp6hfp4pGbUfOhMqiTurwCoG+1Lzppe3+e+omRyTk07GkO2vyTzrq3g7zTE0yuGpWOiafU18aRGrjxqsSFiwUcyQo95OB/Orn6JtW+6i+ctPZLuIanUgaj7qQnkce6pxOqjVvuovnLThOqzVO+KP5qU1kS8iKPPEx/ib4mmxik+2/5mrSB1Xal91H81KB6rtR+6j+alWuofuFIzCSSZf/cf8zf1pA6hN97J+dv61p0/VPqR5RR/NSo2Tqa1Un/lRD/NWq+o+SXEof7Un++k/O39aPsc4eaQqCMjOWdh3FUzkjzOB51fl6n9UT6kMRb7bSocf4V5D3nJ91N36mtXJJMcZJ4kmZST7zWTztfqFRSH1IgFYgUHItnMjDzfuHkuB45pkWzxPOtC9C+rfdRfNSh6GNW+7i+alQ8t92FGemuVonoY1b7qL5qUeDqY1PcN8Ue3I3YmTOO/GaWy9x0ZyFPE44Dn5e+uVp69U+rg47KHs+KlFlUKVPPzz37jk5AprJ1Lark4jiIzwPaoMju4UboKM6peO7dRgNw544EZ8QDyPnV89C+rfdRfNSunqX1X7uL5qUtogrRnjuSckkk8yeJp1Y37R5XJKN9Zc9/cy+DDx/A8KvHoX1b7qL5qUPQvq33UXzUqo5FF2mHJTZr6ReTZU8jyz+HcfEUUatL9qrunU3qwGDFEQe7tk+I8DRD1L6t93F81K3+syfuK2l7spw1qX7R+NHGvS+J+NW70L6t91F81KMvUvqv3cXzUprrMn7v9L/gby92VL+0Mviabz6s7czV2PUvqn3cXzVonoX1b7uL5qU31s1+pf0gcpPuzPmcnia5mtC9C+rfdRfNSqv0r6LXOnyLFdKqu6dqNrBxt3FeY81Nc/q7PuRRDK+DmpzTr7hUDRlcjlTbsadFhvtS4c6gZpdxojOTzotQkU5AoUKFUQaa93TG5vMd9O1syRUTq1uVBNDjRrYk9/wCJov7SHjVZnnJNJbzUhsi1ftAeNITXYNVzefGhvPjTFuiajuAHVue1lbHjgg/7Vsvp3h9ik+an9KwDeaG80nG+4bI38de0PsUnzU/pRh16Q+xyfNT+left5oBzS0iK0egfTpD7HJ8xP6V1evKI8BZyH/MT48uVYHs2/XJB+yPrfj9n+flRJZyRgcF8B/ueZ/Gq0h7CtG8y9fkAOBaSN44kXHx28aT9P8HsUvzE/TWC0KnRCs3r0/wexS/MT9ND0/wexS/MT9NYLQpaILN69P8AB7FL8xP00PT/AAexS/MT9NYLQo0QG9en+D2KX5ifpo69fcJz/wDxSZHd2if0rAqGaNIhZvXp/h9il+Yn6aHp/g9il+Yn6awUmhRogN7Xr+g9ikH+YvD/ALaB6/oPYpfmL+msEoUaILN69P8AB7FL8xP00PT/AAexS/MT9NYLQo0QWb16f4PYpfmJ+mh6f4PYpfmJ+msFoUaILN79P0PsUnzE/TTiHr0hb/4cg/zU/pXnyjpIRyq1CHsCZ6IHXVF7K/zF/TSZ67YvY5Pmr+mvPwuW8aOt61JwiUmjdpuviFedlJ81P6VmPWd0yTVLiOdImiCRCHDMGJIdmzkD+9VQkkJ50WkoJOxP4BQoUKskFChQoAFChQoA2y1thiofpBa+qan4X4VH6ouRVU2XZkV3HtcjzpGrTrGk7jkVENpD1SxNksjaWtbV5GCRqWY9w/8AOA86sWkdDnkw0p2J/wBze4HkPM1a1jgtIiVARQOJ5k+GTzJ8qxnLV15NIY2+XwQFh0JGMzOc+CYwP+ojjTt+h1uPt/m//KgdW6WzScIyYl8vrn3t3fhUCZmzuLEt4k5PxNKO3kblBdkXC+0KzjUl2Zfc2SfcDzqsySIjnswSuCAWI3DPDI2nAprJKzHLEsfEkn+dFBrRy+DOTs66Ec/AH8DxFPuj9hHPcxQyzCBJHCGVlLBM8iQCOZwMkgDOSQBSCDehH8SZYeac2H4H1vxapToPp9tPexR3kqxW+WaRmYICFUkJuPLcQB7iccahvgRqB6nbCeKYWWoNJPDlWyY3jEgBIRwoBXOCM5OOPPGKrfV31eW9zaSahqE7QWqEqu0qpbbgM7MwOF3HaABknPlnVb7U9INr9DttSt7OIgq3YPCrEEYI3MDgnvb6x8aoXV30gsLjSpdHv5hbjcWSQsEVlMglBDt6oZXHI8wRjPHGSboZWutHoAummKW3lMttOPUZtpZWABwWUAMCpyCAOR8Mm0/8OVnHI172kaPhbfG5VbGTNnGRw5Co7rl6V2ssVrp1k/axWwUtIDlcqnZxorfxYXJJHDiPPC/UBrttateG5nih3rBt7Rgm7aZc4zzxkfGqd68iLT0i02HUdHubq4079nz24lePcuyQ9mgdTkohKPkrgjnkjjg03uYbHo7Y27SWiXV3P9YttySApl2uytsRdygADjwz41l/SnrE1C+j7C4mHZZBKIqoHIOV3Y4kA4OM4yAe4Vo8ev6XrdjBDqNx9FubfGWLKm47QrMjOCpVgASvMEeAyZpruA36f9GrSa3stXsolhWWWDtYwAqlZGAyUHAMG9U44HOe6tI1lY0ure1GlpPDcBxLMIlMcIA4CQdmVIPmw/Gsv6e9MbTsbTTdPbdbQSwtLN/CVjYAKGI9bj6zNy4DGeOJbrU60nheFdMuoXVkftCojl2sCNvE5AOCedKmMmuhHRe1t9V1SCOONowtpIqMofsjIsrMg3Zx4jyI8Kzr/h7tkk1GVZEVx9EkOGUMM9tBxwe/iaQ6qOn4tL6aW9dmS6A7WUgsyyKSUdgOJX1mGAOGR3Cr1pN5oOjtcXtvdieSYEJErrIyqW39kgUeqCQvFzw2jj4t2uAB0FsImTXd0UZ2Xd2FyinaAHwF4cB7q8/Ctu6ouk1qYNQ+m3MUD3U7yEM6of3qHcVDebGojUug2hqqGHVVdjLErBpoNoiMiiVvVUHITcRx54pxer5EXLq36K2q6VDb3KJ22opNKCVUuFaP1djHiMR7G4ciTVG6ldJ2azLb3CKzRRTxsrAMu9JEU4yPEHjV16SdaNhDf2sccENwkYULdLIMW4lOyURgKc4jCk8Rnl3UjDqunxdITepeW/Yz2jb2EqbVmVo1IPHAyqqR4ndU2/7GWaGxhv5byyudJEMMR2R3BQL2uSy74WMalSMZypbn8fMF5CEkdAwYK7IGHJgCQGHkcZr0LpnWRbXUuoWN3cpFETItvcK4jDQsNmFkHDeuQQe/J8OPn3UrURSyRB0kCOyB0IZHAPB1I7iMH8avH3ExtQoUK1EChUnYaO0sZdOODtYd4PdTS4s2Q4Irb6fI47JWvgOw3oV3bXMVlTQAoUKFIAUKFCgAUKFCgDaMkUlLxpw9JkV1ajsjJ4ATyp7a6UqDe4BbmB3D+ppzp0QLEnu5fjSWu3BVeHHyrm6jK4/ajbFC+RpdX4BqkdK9SMrbR9VP9WPf+A/maS1bVyW4ZFQ00pP8zWGKNPZlZpKtUJUK7iuVscwKFGjQk4FHuYChweOeINIYppkUjzRpEAZHdUQEhQWYhQpLEAAk44nHGpLpX0YuLGYRXERjLqJEG5XypJGNyEgkEEePAHvFQqsQQQSCOII4EHuINekWsBrUOjX2ATHMGnwOWxWMoOf4TNAq+5xUSdMDGLjq41NJooHtsSzhzEnbW5LCNQznIkwMAjnikLPoHqEtxNaR2+6eAKZU7SEbAwBX1i+08xyJrV4Ne+ldLEVTmO3jmtV48NyxOZTjx3lh7lFS/Q3/ANRat/gh/wDqlTuwMW1nq71O1jM09o6xqMsytFJtHeWEbMQPM8KQ6OdB7++jaW0g7VFfs2PaQphsBsYdweTDjWvdUnSa9udRvbaeRprdBKw3jd2bCYIiBvAqX9U/Y4cjUh1ZQRRW2roshhhjvrxBIpAMMaxqA6kgjKqMg+VG7CjEukfQa/sYhNd2/ZRs4iDdpC+XKswGEcnkjceXCl9I6udTuYhPDaM0bDcrM8Ue4dxVZGBIPccYNXzWo7e6u9PtotTm1CJ7kSTxyurKqptwcBV5hnHfwJp/1y9MNQs9Qt4rR2SMRJIqKoImcuylSMesMKo2+fnT3YGX21gUDwTo0ckZKOjDawzxBx7jwPuqO0ro9c3M3YW0TTPz9XkF+0zHgg8yRx4Vq/8AxFxKkllOuFmdJY38WRDGVyfIu3x8qe9WExg0C9u7YA3OZ2ZsBmVo0GwEd4VTvAP2j40bOrGZV0i6C6hZIJbq2ZIyQN4aORQTyDGNjt8OOKY9HOjl1fSNFaRGV1QyMNyJhQQM7nYDmw4ZzWtx2Op3ujSM2qRSRGJrmVdm+YAJv+jvIDwHDOMZ/DhS/U9p0tnpU1/HC0s1xIgRFGWMKSBDgd31pm8wq0buhUYodLmFx9FKYm7X6NsJUfvd+zbuzj63DOcVIdJeiN7YbPpkBi7TdsO+NwduN3GNjj6w51pPWdoHY6/ZXCj1Lqe3f/NjljWTh/h7M+9jWq9MdAt9SAs5T60TwXfns7RlYDj/ABKkq+WQeOKez7hR5mv+hF/Dai9ltyluVRw5eLO2TGw7A28Z3Du76k4OqjV3VXW0yrAMD21sMgjIPGTwrYuuG9jm0Od4uKCZYeWBmK67JseW5Gx5VJ9Ip4VsrQz6hLYjYmHjYKZD2Q9U5U8Bzqd2FHnS46G3yXYsTbsbkgOI1ZHO0jIYsrFQPMnhTzWurnU7WMzTWjCNRuZlaOTaBzLCNiQB3nlV76E9Lbe31m7eWeW6haERJdsDKyopQ5kKLwjycFsYBC58RZum2jTXWn3Uun6o1xA4aV4maOVSEIkaOKZAGTAGNhzngDijdgedKFChWwixdBtSEVyqP/y5sRN4Ak+o34H/AEJqy9M9LVcnHHNZxV71XV+3t4XJyzKA3+JfVY/EE12dFJ70VfDKs9oaRaHyqTeam7vXpTUX4MqGBirnZU6ZqcW8Wa55Y4DIwxVwx1YhY8OVN5bLyrN4YsZB7KPHHmn72Ro9panJyKI9MkxWag5pCR6Ukeo+5mrFOyiZ0j6rHxOPgKbaquc0/wBNXES+Yz8eNNr2IkYFeZme02zrx8IyfpBFtlNRgFaDqfR1GO9ySfAcBVdnlWAkRqB58z8TVRlxRE8dysb6P0fln4gBEHAs3D4DmamU0m2i5jefFuX4LyqF/a7ZyT8DiiXGqEj1fj303bCKhEd64ylRsUKATjAAzUI8pPM5xQklLczmiVSVGU5JvgFaB1fdaEmmW8tuIBMHcyxkybOzYqFPDa24cFOOHf41n9Cm1ZJYehXSg2N6t60ZnZe0ypfYWMispJfa3H1s8qtGjdavYajd3/0Td9KVF7PttvZ7Aozv7M7s7fAc6oek6aZ2ZBJGhVHly5YArGpd8bVPEKrH8Kko+h12xiUR5MyNJHz9ZVgin54xxE0ajuLHFQ1HyBetW675WiaOzs47VnzmQP2hBPNlARRu8zn3VEdXvWb+zbeWBrT6R2srTMxm2fWRVKlTG276vPPfVQfRmH0f97EfpIDJxYbAXMf7wsoC+urDhn6p7sEvY+h9ySV9TcJBCV3etu3RLJyGPUaeNW8DuxnacFRAtfSbrSiuYlSLTktpEkWZJElXIZQQAdsSnHrePdUpYdekgRRc2MU8qElJBJ2eD3HaUbDeJBGfKs4g6NzvIsSBWd4XuFAP1lTfkD+8ezYAd/Dxp5/Yu43ohaMM7ToBmQ4+jmUSMSqHhmB8AZPLhxoqIDfph0pn1G4NxcEZxsRF4JGg4hVB8ySSeZNSPV/0+uNLkYxqJYZMdpExIBI5MjDOxu7OCCOY4DERe6BJHHHKXjKSbeKsSUD7jGXUgEBgjkYz9U8jwqdsehbK7do0T7O5WOGIj7ZgoZQWKx+seQwe88K1x4t+EBbbvrnaWCeCPTVSOaJ4l2SH1WdWV3OIsPzXhgcjxOeCF700vri0t7Sxt5LBIAi9p25y6omwA+opxxyeeTinthoZESy4XYysw7uCbs92P4G5eWcZFPE0tzsKgfvAzJk4yEOG58sD1vdxrX6bGn3L1Fr/AKSvLDaRzw9pLavDL2/acZGjxu3KU4b8cTk8cHypv0h6WXEtyLuAG3cQ/RyAwk3LvLnO5AOZHdnhzoWGnPKhdcY3iPv5koB3Y5uvPjz8DQbQ5CBgAkqWwMkgBd4z3ZK8QK3isceK7DpBdV143+lPpyoqTeqwLNgMVk7TljhnlnNISddAjVLefSlZoVWMiSYEgqoXO0wHGcVHalobxHeGUMJHiwCdwaMgNnhjHFe/+IeeBrvReWf93cIqTqAqSBhlyXkSNB9vcYnK+XeM1nl6aD+6DJaGtr1tdlfSXkNhCiyQxwNHu9YBGZiUkVABuLDIKn6i066Q9czS20tta2SWvbBldw4Y4cbXKqqLhiOG45qkax0QuLaETymPs2xtIbO7dgqFGOZU7seCnwqArj0RIKFChViBU1pmWiC9wY4qFq16XZ7FUNzxk+RNdfRp7t/AMaTWxxTBzVjugAM1WZGyTXoSdEhc8am9MTNQic6ntNNc8pDRNLEMU3lhFLiThRW40ozKaGckQpKJAKWnOKYNMa6oyRnXJcZpaj5WyacnjXBDxHvFebskaUWuIYUDwAH+lGCVwUdTXmHSQ+rw4U1mWurhia1HW/q1l+uS4cjuoh3Lf/khKFA0K6TiBQoUKABQoUKADxSspypKnDLkEg7WUqw4dxUkEd4JpwuqTjGJpRjGP3j8Mdntxx7uxh+Un2RhpQpUApJOzY3Mx2jC5JO0FixAzyG5mPvYnvpf9qT7WXtpdrv2rr2j4eTIO9hnDNkA5PHgKaUBRQDuTUZ5JC7SyvI47MsXdnZSNuwtnJBHDH4VfJOi+oxL20t1P+7C3G1JJS6PMJe3LEHEbK3aqzd+4k86juifYoNygb+9jxb3A9w91Smtagu08qiSNYx9xrrHR6cJJ9InmWK2uRa4kErIqs4Uz4d/VQhsjAOf9aUs9Du13ZupFZrmCxmUb3QSOIQROwf1tnbbMYPFCOHCs/uHyxI8aUtVBNbetkiuGSo7So1fSzJGdrTkSKbaNWj3Mu26RpF2OhzsxvPqg5yMD1uEvHpkrTNEZHBUooJLY9cxRdxI+rKuQCeHCqHoNugHIVbrULjhW2LLKatm7hQ/a0eEhBIeSv6jHb6wRwRjnyQ5/ujwFHMjldpdtvEbdxxg5yMcuOT8TSSmlAap/IqEp4i3Mk8S3Ek+s2Nzce84GT5CmNykuTiSQZBQ+u3FSSxU8eIJZiR4sfGpMsKa3FwtVFsVFev4S0fZSlnjHJGYlV54KjPqnieXiaqN10WlO4wDtFH8PDePcP4vw4+VXLUpgeVRFnqJicnBIPPx4eFbywrJH5MpVZR5oWQ7XUqR3MCD8DRUQk4AJPgONXnW9b7VCiqePMtx4eAqJs4qyXQ8XKVENhtE0UJiWbG4cVTng+LeflUlNJR0jwKSkWt8SjBVELI/UJCRUOVqXulpg8dVKViG8S8amLU4qOjWniPismhofG57qcJPUFNNxpSC6rB2mUS0zZplKlKJLmuvW0ZE0W2CGlY09Zf8Q/nUj2IxTeOL1x7682U7NkiW7qCHhQSioa5maDHVV9U1lnSSPDmtZ1FMrWedJrPgTTg6ZTVxop9eoehvQbTZLCzkks4Gd7WB3YoCWZolLMT4kk15fIrma2lGzkPXPo90v2G3/IKHo90v2G3/ACCvI2aGan0/kLPXPo90v2G3/IKHo90v2G3/ACCvI2aGaPT+Qs9c+j3S/Ybf8goej3S/Ybf8gryNmhmj0/kLPXPo90v2G3/IKHo+0v2G3/IK8mWabnUHvIFSUtrWuPpnJWmM9SR9AtMXiLKAe5RXZOgumt9azgPvXNeTprUikexNJ9PNAes/R7pfsNv+QUPR9pfsNv8AkFeSmjNc2Gp+nkK6PXkfQjTl+rZwj3LThei1kOVvH8K8d7TXNpqvRmuzHueyB0btPuI/hXf7OWn3Efwrxvg+dd2nxNUsOR+WLY9jHo1afcR/Ck26J2R520Xwrx72ZpeC1Ykc6pYMl8yoNmz1z/ZCx9li/LRG6FaeedpD+UVhGgXJQDOeGKsE2pBh3/7fGh4cniTY0jUz0E032KD8grqdBdNHKzgH/QKwe+Yu5OaVt4OIpyw5UuZP8/yXqbv/AGNsPZIvy1w9C9P9kh/LWXwWg21Ba+m08KIYZN1u1+fyQzam6C6aedlB+QVm/XP0atbaG3a2t44i0rKxRcFgEyAfxqgmkJFrWGCUZW5X+fyKyNEdEkp7ItMLlq6BDORuNFWSiMaJmobCyUtZ6kkfNV6F6kreXhU2UjWDSaD1qOTSYPGvOfY1XceKa4vOgtBzWRodmTIqp65Z5Bq391Q2qx8DSHFmS6lb7WNM6sXSC34k1XTXRB2jDLGmChQoVZkChQoUAChQoUAOLCcJIrkZAPEfhjP+9WKEK43Kcj/znVVqa6Kse1K9xUn8QR/U109Pkp6+4MfvaUT6F5VPC3oxt67GxFbaxopsBVja3ohtqOAK2dNrq6dVgNvXOwqhEAdPrq2Q8KnDBRTBTQDG104HuqattLA7qUsIxU3GnCuLqFJujpxJUREtvtHCmCOWODU/excKhVTDYpdPcZU2PIhdYqXtl780rBb54Yp2dJIHfXXKa8kciyXwUYzUBqlwXNcvCyNtwaRKE8TUaqyGNjRGFOTHSZjptEjKYVFXYqdljqOuIKylKh0QpWuBKkGgoywVk5BQyjjp1HwpQx0WouykqNYJpMmjGk3rlLH4oshoQtkD3UnKedYGyF43pnqK8DQWXFN7yfIpWOuSkdJcAVUGq2dI+OaqbVvj7GWfwcoUKFanOChQoUAChQoUACp/oXHmc+UbfzWoCnml37QuHX3EeI7xV4mlJNgaQygUmWFM5r3IyO8Zpmb2u+xEscVzFR8V3ThZqtAKMKIRXS9FJq0BwiikUC1FzTEKwybTUta3QqDzRlcjlUTx7FxlRY3cGo6e1yc+eaaLenvpxHdZrhy9PO+DdZE+5ZdIuIgBuGD7qkri4jI4VUo5qV7Umq9KT5ZDas5qpVm4d1Rsi05nprWsItdxSkqpCZSiMlL5ojVoZjWRaYTipCY1HTmubIWhq4rgrrVysGMJJSQWlJK4ppw5Y2f/2Q==" width="200px" height=auto>
+                    </div>
+                    <div class="col-md-9">
+                        <p>If you’re connected at all to the gaming world either through your kids or as a gaming fan yourself 
+                            you probably already know about some of the most popular trends in video games right now. But if not, the American market research company the NPD
+                             recently released its list of the best-selling video games of 2020 so far. The company looks 
+                             at digital and retail sales to determine what games people are buying.<br>
+                           <a href="https://www.goodhousekeeping.com/life/entertainment/g30910862/best-video-games/">Read More...</a>
+                           </p>
+                   
+                    </div>
+                </div>
+            </div>
+
+
+        
+        </div>
+            
+    </body>
+    
+    <br>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <p id="footer-title">Game Night Limited</p>
+                    <p></p>
+                    <p>
+                        ABC Place Waiyaki Way, <br>
+                        P.O Box 14090 - 00800 <br>
+                        Nairobi, Kenya <br>
+                        property in kenya <br>
+                        Office :	(+254 709) 479000 <br>
+                        contact Game-Night, <br>
+                        info@Game-Night.co.ke <br>
+                    </p>
+                    
+                </div>
+                <div class="col-md-3">
+                    <p id="footer-title">DONT MISS OUT</p>
+                    <p></p>
+                    <p>Subscribe to our news letter and 
+                        and stay updated on the latest developments  and
+                         special offers!<br>
+                         Enter your email here
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p id="footer-title">Company</p>
+                    <p></p>
+                    <p>
+                        About Us<br>
+                        Services<br>
+                        Career<br>
+                        Hass in the News<br>
+                        Privacy Policy
+                    </p>
+                    
+                </div>
+                <div class="col-md-3">
+                    <p id="footer-title">EXPLORE</p>
+                    <p></p>
+                    <p>
+                        Property for Sale<br>
+                        Property to Rent<br>
+                        New Developments<br>
+                        Hass Index<br>
+                        Suburb Profiles<br>
+                        Contact Us
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>
