@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sign-Up/Login Form</title>
-  <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="/css/signup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="stylesheet" href="./css/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <title>GAME-NIGHT RENTALS</title>
 </head>
 <body>
-    <!---------NAV---------->
     <div class="jumbotron">
         <img src="./images/game-night/GAME NIGHT RENTALS_free-file.png" alt="game night logo">
     </div>
@@ -21,16 +22,18 @@
     </div>
 
 <!---------SIGNUP/LOGIN---------------->
+<div id="slides">
+       
 <div class="form">
       
     <ul class="top-area">
       <li class="tab active"><a href="#signup">Sign Up</a></li>
       <li class="tab"><a href="#login">Log In</a></li>
     </ul>
-    
+  
     <div class="tab-content">
       <div id="signup">   
-        <h1>Sign Up for Free</h1>
+        <h1>Sign Up for Game-nightRentals free</h1>
         
         <form action="/" method="post">
         
@@ -53,6 +56,18 @@
         <div class="label-field">
           <label>
             Email Address<span class="req">*</span>
+          </label>
+          <input type="email"required autocomplete="off"/>
+        </div>
+        <div class="label-field">
+          <label>
+            Phone Number<span class="req">*</span>
+          </label>
+          <input type="email"required autocomplete="off"/>
+        </div>
+        <div class="label-field">
+          <label>
+            Location Optional<span class="req">*</span>
           </label>
           <input type="email"required autocomplete="off"/>
         </div>
@@ -94,10 +109,11 @@
         <button class="button button-block">Log In</button>
         
         </form>
-
+        
       </div>
+</div>
+</div>
       
-    </div>  
 </div>
 
 <!------------FOOTER------------->
