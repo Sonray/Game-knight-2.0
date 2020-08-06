@@ -1,0 +1,36 @@
+/* START--terms & conditions */
+.terms-condition {
+    padding: 300px;
+    text-align: center;
+
+}
+.terms-conditions h2 , h4{
+    text-align: center;
+    
+}
+span , h5 {
+    font-weight: bold;
+}
+
+.shown-text1 {
+    display: none;
+}
+.shown-text2 {
+    display: none;
+}
+.shown-text3 {
+    display: none;
+}
+.shown-text4 {
+    display: none;
+}
+
+.hidden-text1 ,.hidden-text2 , .hidden-text3, .hidden-text4{
+    cursor: pointer;
+}
+
+.shown-text1, .shown-text2, .shown-text3 ,.shown-text4 {
+    cursor: pointer;
+}
+
+/* END--terms & conditions */
