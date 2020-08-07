@@ -12,6 +12,18 @@ span , h5 {
     font-weight: bold;
 }
 
+.shown-text1 {
+    display: none;
+}
+.shown-text2 {
+    display: none;
+}
+.shown-text3 {
+    display: none;
+}
+.shown-text4 {
+    display: none;
+}
 
 .hidden-text1 ,.hidden-text2 , .hidden-text3, .hidden-text4{
     cursor: pointer;
