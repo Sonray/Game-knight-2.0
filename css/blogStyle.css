@@ -1,0 +1,59 @@
+body{
+    font-family: "Montserrat";
+    scroll-behavior: smooth;
+}
+.jumbotron{
+    text-align: center;
+    background-color:#26F122;
+    height: 7vh;
+}
+.jumbotron h3{
+    margin-top: -8vh;
+    font-size:60px;
+    font-weight: 1000;
+    text-shadow: 2px 2px red;
+}
+#itallic{
+    font-style: oblique;
+    font-family: "Merienda";
+    font-size: 17px;
+}
+nav{
+    text-align: center;
+    background-color: darkgray;
+    margin-top: -3vh;
+    padding-top:20px;
+    
+}
+.blogs{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-size: 35px;
+    margin-left:64px;
+}
+.navigation{
+    text-align: right;
+    background-color: grey;
+    margin-top: -5vh;
+    height: 10vh;
+    padding: 20px;
+}
+.nav-bar a{
+    margin-right: 5vw;
+    font-size: 20px;
+    font-weight: 1000px;
+    color: black;
+}
+footer{
+    background-color: black;
+    color: blanchedalmond;
+}
+#footer-title{
+    font-size: 20px;
+    text-align: left;
+    padding-right: 13px;
+}
