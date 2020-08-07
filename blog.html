@@ -5,8 +5,8 @@
         <link href="css/css/bootstrap.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
         <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Merienda">
-        <link rel="stylesheet" type="text/css" href="css/blogStyles.css">
-        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="./css/blogStyles.css">
+        <link rel="stylesheet" href="./css/styles.css" type="text/css">
         <script src="js/jquery-3.5.1.js"></script>
         <script src=""></script>
         <title>Blog Post</title>
@@ -14,33 +14,13 @@
 
     <body>
         <div class="jumbotron">
-            <h3>GAME-NIGHT RENTALS</h3>
+            <img src="./images/game-night/GAME NIGHT RENTALS_free-file.png" alt="game night logo">
         </div>
-        <!--<div id="navigation">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-                <div class="collapse navbar-collapse">
-                    <div class="navbar-nav">
-                        <ul class="navbar-nav"> 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Hire</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Blog Sport</a>
-                            </li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </nav>
-        </div>-->
         <div class="navigation navbar-nav nav-item">
             <div class="nav-bar">
-                <a href="#">HIRE</a>
-                <a href="#">ABOUT-US</a>
-                <a href="#">BLOG-SPORT</a>
+                <a href="hire.html">HIRE</a>
+                <a href="about-us.html">ABOUT-US</a>
+                <a href="blog.html">BLOG-SPORT</a>
             </div>
         </div>
         <br>
@@ -108,56 +88,68 @@
     
     <br>
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <p id="footer-title">Game Night Limited</p>
-                    <p></p>
-                    <p>
-                        ABC Place Waiyaki Way, <br>
-                        P.O Box 14090 - 00800 <br>
-                        Nairobi, Kenya <br>
-                        property in kenya <br>
-                        Office :	(+254 709) 479000 <br>
-                        contact Game-Night, <br>
-                        info@Game-Night.co.ke <br>
-                    </p>
-                    
+
+        <div class="limited">
+            <h4>Game-Night LTD</h4><br>
+            <p id="p-limited">
+                ABC Place Waiyaki Way, <br>
+                P.O Box 14090 - 00800 <br>
+                Nairobi, Kenya <br>
+                property in kenya <br>
+                Office :	(+254 709) 479000 <br>
+                contact Game-Night, <br>
+                info@Game-Night.co.ke <br>
+            </p>
+        </div>
+
+        <div class="subscribe">
+            <h4>DON'T MISS OUT</h4><br>
+            <p>
+                Subscribe to our newsletter <br> 
+                and stay updated on the latest <br> 
+                developments and special offers! <br><br>
+                Enter your email here <br>
+            </p>
+            <!-- Begin Mailchimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="https://gmail.us17.list-manage.com/subscribe/post?u=332412aac45a71cc660298ff5&amp;id=6ebd4e3f64" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                <div class="mc-field-group">
+                    <label for="mce-EMAIL">Email Address 
+                </label><br>
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div><br>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_332412aac45a71cc660298ff5_6ebd4e3f64" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
                 </div>
-                <div class="col-md-3">
-                    <p id="footer-title">DONT MISS OUT</p>
-                    <p></p>
-                    <p>Subscribe to our news letter and 
-                        and stay updated on the latest developments  and
-                         special offers!<br>
-                         Enter your email here
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <p id="footer-title">Company</p>
-                    <p></p>
-                    <p>
-                        About Us<br>
-                        Services<br>
-                        Career<br>
-                        Hass in the News<br>
-                        Privacy Policy
-                    </p>
-                    
-                </div>
-                <div class="col-md-3">
-                    <p id="footer-title">EXPLORE</p>
-                    <p></p>
-                    <p>
-                        Property for Sale<br>
-                        Property to Rent<br>
-                        New Developments<br>
-                        Hass Index<br>
-                        Suburb Profiles<br>
-                        Contact Us
-                    </p>
-                    
-                </div>
+                
+                <!--End mc_embed_signup-->
+
+        </div>
+
+        <div class="company">
+            <h4>COMPANY</h4><br>
+            <nav id="foot-nav">
+                <a href="about-us.html">About us</a>
+                <a href="hire.html">Services</a>
+                <a href="terms.html">Privacy Policy</a>
+                <a href="blog.html">Blogs</a>
+            </nav>
+        </div>
+        
+        <div class="socials">
+            <h4>FOLLOW US</h4>
+            <div id="social-media">
+                <a href="#"><img src="./images/social-media/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="./images/social-media/pinterest.png" alt="pinterest"></a>
+                <a href="#"><img src="./images/social-media/you_tube.png" alt="you-tube"></a>
+                <a href="#"><img src="./images/social-media/twitter.png" alt="twitter"></a>
             </div>
         </div>
     </footer>
